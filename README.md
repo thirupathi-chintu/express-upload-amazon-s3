@@ -40,7 +40,7 @@ s3.putObject({
 ##### 5.Start server
 	node app.js
 
-Now check [http://localhost:3000](http://localhost:3000)
+Now check [http://localhost:9000](http://localhost:9000)
 
 
 ## Error Handling
