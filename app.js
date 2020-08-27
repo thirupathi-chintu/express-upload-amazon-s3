@@ -24,6 +24,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', routes.index);
 app.post('/upload', uploader.single('singleFile'), upload.s3); //"singleFile" is the field name
 
-http.createServer(app).listen(app.get('port'), function() {
+http.createServer(app).listen(app.get('port', "0.0.0.0"), function() {
 	console.log('Express server listening on port ' + app.get('port'));
 });

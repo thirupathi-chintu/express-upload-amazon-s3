@@ -15,9 +15,5 @@
 		"multer": "*",
 		"underscore": "*",
 		"aws-sdk": "*"
-	},
-	"license": {
-		"type": "MIT",
-		"url": "http://ryanwu.mit-license.org"
 	}
 }

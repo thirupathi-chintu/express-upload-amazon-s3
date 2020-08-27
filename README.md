@@ -6,7 +6,7 @@ Sample project for demonstrating how to upload file from web through express to 
 ## Setup
 ##### 1.Download Project
 ```bash
-git clone https://github.com/ryanhanwu/express-upload-amazon-s3.git
+git clone https://github.com/thirupathi-chintu/express-upload-amazon-s3.git
 ```
 ##### 2.Install required packages
 ```bash
@@ -21,7 +21,7 @@ npm install
 {
     "accessKeyId": "XXXXXXXXXXXXXXXXXXX",
     "secretAccessKey": 	"XXXXXXXXXXXXXXXXXXXXXXXXX",
-    "region": "us-east-1"
+    "region": "ap-south-1"
 }
 ```
 
@@ -80,6 +80,3 @@ PermanentRedirect: The bucket you are attempting to access must be addressed usi
   * [Security Credentials](https://console.aws.amazon.com/iam/home?#security_credential)
   * [AWS JavaScript SDK - S3 Client](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putObject-property)
 
-## License
-
-* MIT: [http://ryanwu.mit-license.org](http://ryanwu.mit-license.org).
